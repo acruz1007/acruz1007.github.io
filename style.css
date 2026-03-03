@@ -12,3 +12,7 @@ body {
  #title-color{
    color: navy;
  }
+
+button[type="submit"]{
+   color: maroon;
+}
