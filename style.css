@@ -16,3 +16,15 @@ body {
 button[type="submit"]{
    color: maroon;
 }
+
+.floatleft{
+   float: left;
+   margin-right: 40px;
+   margin-bottom: 10px;
+}
+
+section::after{
+  content: "";
+  display: block;
+  clear: both;
+}
