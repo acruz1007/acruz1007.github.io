@@ -29,3 +29,8 @@ section::after{
   display: block;
   clear: both;
 }
+
+.box{
+   border: 10px ridge rgb(0, 0, 88);
+   padding: 2px;
+}
