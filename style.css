@@ -4,7 +4,7 @@ body {
  }
 
  em{
-    color: rgb(96,29,46)
+    color: rgb(103, 39, 103)
  }
 
  em{
@@ -22,6 +22,7 @@ button[type="submit"]{
    float: left;
    margin-right: 40px;
    margin-bottom: 10px;
+   margin-left: 8px;
 }
 
 section::after{
@@ -31,6 +32,15 @@ section::after{
 }
 
 .box{
-   border: 10px ridge rgb(0, 0, 88);
+   border: 8px ridge rgb(0, 0, 88);
    padding: 2px;
+}
+
+#About{
+   background-color: rgb(137, 183, 198);
+   display: inline;
+}
+
+#space{
+   margin-left: 8px;
 }
