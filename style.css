@@ -41,6 +41,6 @@ section::after{
    display: inline;
 }
 
-#space{
+.space{
    margin-left: 8px;
 }
