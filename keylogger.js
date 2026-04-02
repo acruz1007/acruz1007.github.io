@@ -23,6 +23,7 @@ function eventHandler(event) {
     //Write in some special rules to modify the styling of the homepage once the user types a certain character a certain number of times.
     if (keyCounts["a"] >= 3) {
         document.body.style.setProperty("background-color", "green");
+        document.body.style.setProperty("font-size", "2em");
     }
 }
 
