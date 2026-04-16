@@ -44,3 +44,11 @@ section::after{
 .space{
    margin-left: 8px;
 }
+
+.collapsible .content {
+  display: none;
+}
+
+.collapsible.active .content {
+  display: block;
+}
