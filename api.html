@@ -5,7 +5,7 @@
     <link rel="icon" href="https://static.vecteezy.com/system/resources/previews/000/550/705/original/soccer-ball-vector-icon.jpg">
     <link rel="stylesheet" href="style.css">
     <script src="keylogger.js"></script>
-    <script src="api.js"></script>
+    <script defer src="api.js"></script>
   </head>
 
   <body>
@@ -16,5 +16,23 @@
       <a href="sandbox.html">Sandbox</a>
       <a href="api.html">API</a>
     </nav>
-</body>
-</html>
+
+   <h1>Random Dog Generator 🐶</h1>
+   <p>Growing up, dogs were <em>always</em> my favorite animal, and they still are today! I have a genuine love for animals in general, but dogs are on a different level.
+    They're the best companions, they love to play, and they're loyal. Other than those points, they'll also keep you company when you go on walks, runs, or bike rides!!!<br><br>
+    Type in your favorite dog breed below, or don't and click "Get Dog" and a random dog will be generated! 
+   </p>
+
+  <input type="text" id="breedInput" placeholder="Enter breed (e.g. husky)">
+  <button id="loadBtn">Get Dog</button>
+
+  <br><br>
+
+  <div id="error" hidden>
+    <p id="error-message"></p>
+  </div>
+
+  <div id="result"></div>
+  
+  </body>
+  </html>
